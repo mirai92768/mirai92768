@@ -1,0 +1,40 @@
+* {
+    border: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+table.dataTable {
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+form.dataTakeForm {
+    margin-bottom: 100px;
+    width: 400px;
+    height: 300px;
+    background-color: bisque;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
